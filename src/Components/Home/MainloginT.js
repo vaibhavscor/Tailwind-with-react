@@ -2,6 +2,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
+import img2 from "../../assets/images/img2.svg";
 export default function Main() {
   return (
     <div>
@@ -14,7 +15,7 @@ export default function Main() {
             <img
               class="object-cover object-center rounded"
               alt="hero"
-              src="https://dummyimage.com/720x600"
+              src={img2}
             />
           </div>
           <div

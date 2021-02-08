@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
+import img1 from "../../assets/images/img1.svg";
 
 export default function MainloginS() {
   return (
@@ -14,7 +15,7 @@ export default function MainloginS() {
             <img
               class="object-cover object-center rounded"
               alt="hero"
-              src="https://dummyimage.com/720x600"
+              src={img1}
             />
           </div>
           <div

@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { Link } from "react-router-dom";
+import img4 from "../../assets/images/img4.svg";
 
 export default function Home() {
   useEffect(() => {
@@ -23,7 +24,7 @@ export default function Home() {
             <img
               class="object-cover object-center rounded"
               alt="hero"
-              src="https://dummyimage.com/720x600"
+              src={img4}
             />
           </div>
           <div
